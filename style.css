@@ -1,0 +1,125 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+}
+
+.description {
+    white-space: pre-wrap;
+}
+
+.time-block {
+    text-align: center;
+    border-radius: 15px;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+    ;
+}
+
+.hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+}
+
+.past {
+    background-color: #d3d3d3;
+    color: white;
+}
+
+.present {
+    background-color: #ff6961;
+    color: white;
+}
+
+.future {
+    background-color: #77dd77;
+    color: white;
+}
+
+.saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+}
+
+.saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.timeBox {
+    background-color: linen;
+    color: black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px 0px 0px 15px;
+    display: inline-block;
+    font-size: 1em;
+}
+
+
+.dailyPlan {
+    color: black;
+    font-size: 12pt;
+    height: 100%;
+    width: 100%;
+}
+
+.plannerRow {
+    height: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 1em;
+    line-height: 1.5;
+    border-radius: 15px;
+}
+
+#plannerContainer {
+    /* background-color: #73919b;   */
+    background-color: #b6d7e2;
+    /* provides spacing between the top and bottom nav bars and the content */
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+    /* provide spaceing around the text */
+    padding: 40px;
+}
+
+.col-md-1,
+.col-md-2,
+.col-md-9 {
+    padding: 0;
+}
+
+#navbar-subtitle {
+    padding: 2px;
+    font-size: 15px;
+    color: linen !important;
+    /* TODO can we do this without the !important */
+    text-align: center;
+}
